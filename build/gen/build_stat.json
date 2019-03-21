@@ -1,6 +1,11 @@
 {
   "arch": "cc3220",
   "platform": "cc3220",
+<<<<<<< HEAD
   "app_name": "app2",
   "build_time_ms": 14198
+=======
+  "app_name": "app3",
+  "build_time_ms": 16757
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 }

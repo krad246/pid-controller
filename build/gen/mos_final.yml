@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 name: app2
+=======
+name: app3
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 type: app
 version: "1.0"
 platform: cc3220
@@ -12,6 +16,7 @@ platforms:
 author: mongoose-os
 description: A Mongoose OS app skeleton
 sources:
+<<<<<<< HEAD
 - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/src/main.cpp
 - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/src/rotary_encoder.cpp
 - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/build/gen/mgos_deps_init.c
@@ -77,6 +82,72 @@ filesystem:
 binary_libs:
 - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/build/objs/libmbedtls-cc3220-2.12.1.a
 - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/build/objs/libmongoose-cc3220-2.12.1.a
+=======
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/src/main.cpp
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/build/gen/mgos_deps_init.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/i2c/src/mgos_i2c_master.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/i2c/src/cc32xx/cc32xx_i2c_master.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/src/mgos_atca.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_cfgs.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_command.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_device.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_iface.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/basic/atca_basic.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/basic/atca_helpers.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/host/atca_host.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/mgos_vfs.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/mgos_vfs_dev.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/mgos_vfs_internal.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc3220/cc3220_fs.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc3220/cc3220_vfs_dev_flash.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc32xx/cc32xx_fs.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc32xx/cc32xx_vfs.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc32xx/cc32xx_vfs_fs_slfs.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/core/src/mgos_core.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mg_rpc.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mg_rpc_channel.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mg_rpc_channel_http.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mgos_rpc.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-config/src/mgos_service_config.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-fs/src/mgos_service_filesystem.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi/src/mgos_wifi.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi/src/mjs_wifi.c
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi/cc32xx/src/cc32xx_wifi.c
+includes:
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/i2c/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/mbedtls/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/mbedtls/include/cc3220
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/mbedtls/mbedtls/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/mbedtls/include/cc32xx
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/include/cc3220
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/mongoose/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/include/spiffs
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/include/cc3220
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/core/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/core/include/cc3220
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-config/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-fs/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-uart/include
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi/include
+filesystem:
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/ca-bundle/fs/ca.pem
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/fs/index.html
+binary_libs:
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/build/objs/libmbedtls-cc3220-2.12.1.a
+- /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/build/objs/libmongoose-cc3220-2.12.1.a
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 config_schema:
 - - i2c
   - o
@@ -440,6 +511,10 @@ cdefs:
   MGOS_HAVE_ZZ_BOARDS: "1"
   configSUPPORT_STATIC_ALLOCATION: "1"
 tags:
+<<<<<<< HEAD
+=======
+- c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - cpp
 libs_version: 2.12.1
 modules_version: 2.12.1
@@ -450,16 +525,26 @@ libs_handled:
     origin: https://github.com/mongoose-os-libs/i2c
     location: https://github.com/mongoose-os-libs/i2c
     name: i2c
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/i2c
   init_deps:
   - core
   sources:
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/i2c/src/mgos_i2c_master.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/i2c/src/cc32xx/cc32xx_i2c_master.c
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/i2c
+  init_deps:
+  - core
+  sources:
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/i2c/src/mgos_i2c_master.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/i2c/src/cc32xx/cc32xx_i2c_master.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/atca
     location: https://github.com/mongoose-os-libs/atca
     name: atca
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/atca
   init_deps:
   - i2c
@@ -472,15 +557,34 @@ libs_handled:
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/atca/cryptoauthlib/lib/basic/atca_basic.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/atca/cryptoauthlib/lib/basic/atca_helpers.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/atca/cryptoauthlib/lib/host/atca_host.c
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca
+  init_deps:
+  - i2c
+  sources:
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/src/mgos_atca.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_cfgs.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_command.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_device.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/atca_iface.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/basic/atca_basic.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/basic/atca_helpers.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/atca/cryptoauthlib/lib/host/atca_host.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/mbedtls
     location: https://github.com/mongoose-os-libs/mbedtls
     name: mbedtls
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/mbedtls
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/mbedtls
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-common
     location: https://github.com/mongoose-os-libs/vfs-common
     name: vfs-common
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-common
   sources:
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-common/src/mgos_vfs.c
@@ -491,15 +595,32 @@ libs_handled:
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-common/src/cc32xx/cc32xx_fs.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-common/src/cc32xx/cc32xx_vfs.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-common/src/cc32xx/cc32xx_vfs_fs_slfs.c
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common
+  sources:
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/mgos_vfs.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/mgos_vfs_dev.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/mgos_vfs_internal.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc3220/cc3220_fs.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc3220/cc3220_vfs_dev_flash.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc32xx/cc32xx_fs.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc32xx/cc32xx_vfs.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-common/src/cc32xx/cc32xx_vfs_fs_slfs.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/mongoose
     location: https://github.com/mongoose-os-libs/mongoose
     name: mongoose
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/mongoose
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/mongoose
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     location: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     name: vfs-fs-spiffs
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-fs-spiffs
   init_deps:
   - vfs-common
@@ -510,71 +631,131 @@ libs_handled:
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs
+  init_deps:
+  - vfs-common
+  sources:
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/mgos_vfs_fs_spiffs.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_cache.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_check.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_gc.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_hydrogen.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/vfs-fs-spiffs/src/spiffs/spiffs_nucleus.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/core
     location: https://github.com/mongoose-os-libs/core
     name: core
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/core
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/core
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
   init_deps:
   - mongoose
   - vfs-common
   - vfs-fs-spiffs
   sources:
+<<<<<<< HEAD
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/core/src/mgos_core.c
+=======
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/core/src/mgos_core.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/ca-bundle
     location: https://github.com/mongoose-os-libs/ca-bundle
     name: ca-bundle
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/ca-bundle
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/ca-bundle
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
   init_deps:
   - core
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-common
     location: https://github.com/mongoose-os-libs/rpc-common
     name: rpc-common
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-common
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
   init_deps:
   - core
   - mongoose
   sources:
+<<<<<<< HEAD
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-common/src/mg_rpc.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-common/src/mg_rpc_channel.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-common/src/mg_rpc_channel_http.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-common/src/mgos_rpc.c
+=======
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mg_rpc.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mg_rpc_channel.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mg_rpc_channel_http.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-common/src/mgos_rpc.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-service-config
     location: https://github.com/mongoose-os-libs/rpc-service-config
     name: rpc-service-config
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-service-config
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-config
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
   init_deps:
   - core
   - rpc-common
   sources:
+<<<<<<< HEAD
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-service-config/src/mgos_service_config.c
+=======
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-config/src/mgos_service_config.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-service-fs
     location: https://github.com/mongoose-os-libs/rpc-service-fs
     name: rpc-service-fs
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-service-fs
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-fs
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
   init_deps:
   - core
   - rpc-common
   sources:
+<<<<<<< HEAD
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-service-fs/src/mgos_service_filesystem.c
+=======
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-service-fs/src/mgos_service_filesystem.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/rpc-uart
     location: https://github.com/mongoose-os-libs/rpc-uart
     name: rpc-uart
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-uart
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-uart
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
   init_deps:
   - core
   - rpc-common
   sources:
+<<<<<<< HEAD
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+=======
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/rpc-uart/src/mgos_rpc_channel_uart.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/wifi
     location: https://github.com/mongoose-os-libs/wifi
     name: wifi
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/wifi
   init_deps:
   - core
@@ -582,11 +763,24 @@ libs_handled:
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/wifi/src/mgos_wifi.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/wifi/src/mjs_wifi.c
   - /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/wifi/cc32xx/src/cc32xx_wifi.c
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi
+  init_deps:
+  - core
+  sources:
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi/src/mgos_wifi.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi/src/mjs_wifi.c
+  - /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/wifi/cc32xx/src/cc32xx_wifi.c
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 - lib:
     origin: https://github.com/mongoose-os-libs/boards
     location: https://github.com/mongoose-os-libs/boards
     name: zz_boards
+<<<<<<< HEAD
   path: /data/fwbuild-volumes/2.12.1/apps/app2/cc3220/build_contexts/build_ctx_965279510/deps/boards
+=======
+  path: /data/fwbuild-volumes/2.12.1/apps/app3/cc3220/build_contexts/build_ctx_874193766/deps/boards
+>>>>>>> cc3881dda01ee4d18dbf326226cb5cbc1ef85586
 init_deps:
 - mongoose
 - vfs-common
