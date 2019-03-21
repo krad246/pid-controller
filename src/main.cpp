@@ -16,8 +16,28 @@
  */
 
 #include "mgos.h"
+#include "mgos_gpio.h"
+#include "mgos_wifi.h"
+#include "mgos_system.h"
+#include "mgos_timers.h"
+
+static void loop(void *arg) {
+	LOG(LL_INFO, ("Toggled pin"));
+	mgos_gpio_toggle(2);
+	(void) arg;
+}
+
+static void onConnect(int ev, void *ev_data, void *userdata) {
+	LOG(LL_INFO, ("Connected to internet"));
+	mgos_set_timer(1000, MGOS_TIMER_REPEAT, loop, NULL);
+  	(void) ev;
+  	(void) ev_data;
+  	(void) userdata;
+}
 
 enum mgos_app_init_result mgos_app_init(void) {
   LOG(LL_INFO, ("Hi there"));
+  mgos_gpio_setup_output(2, false);
+  mgos_event_add_handler(MGOS_WIFI_EV_STA_IP_ACQUIRED, onConnect, NULL);
   return MGOS_APP_INIT_SUCCESS;
 }
