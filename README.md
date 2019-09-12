@@ -13,7 +13,7 @@ Furthermore, this project aims to bring the IoT spin to the project for full aut
 
 The project will be doing a number of things:
 
-1. Reading data from a temperature probe via the Dallas 1-Wire protocol.
+1. Reading data from a temperature probe via the SPI protocol.
 2. Continuously updating the state of a PID algorithm at a fixed interval.
 3. Pulse width modulating a triac carrying 120 VAC at some fraction of 60 Hz.
 4. Using the PID data to adjust the pulse width.
